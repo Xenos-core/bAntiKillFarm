@@ -1,7 +1,0 @@
-com\macronis\bantkillfarm\KillTracker.class
-com\macronis\bantkillfarm\BAntiKillFarm.class
-com\macronis\bantkillfarm\CommandHandler.class
-com\macronis\bantkillfarm\KillTracker$PlayerKillData.class
-com\macronis\bantkillfarm\KillTracker$Stats.class
-com\macronis\bantkillfarm\listeners\PlayerKillListener.class
-com\macronis\bantkillfarm\ConfigManager.class
