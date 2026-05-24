@@ -1,5 +1,3 @@
-
-                  bAntiKillFarm v1.0.4                       
 #              Advanced Kill Farm Protection                    
 
 
