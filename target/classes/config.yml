@@ -1,0 +1,26 @@
+# bAntiKillFarm Configuration
+# Author: Macronis
+# Version: 1.0.4
+
+detection:
+  time-window-minutes: 10
+  kill-threshold: 5
+  warning-threshold: 3
+  punishment-cooldown-seconds: 60
+
+# Warning commands (before punishment)
+# MiniMessage format: <red>TEXT</red>
+# Placeholders: {attacker} {victim} {kill_count} {time_window}
+commands:
+  warning:
+    - "say <yellow>[AntiKillFarm]</yellow> <red>{attacker}</red> <white>stop kill farming or you will be punished!</white>"
+  punishment:
+    - "kick {attacker}"
+    - "say <gradient:#ff6b35:#f7c59f>[AntiKillFarm]</gradient> <red>{attacker}</red> <white>punished for kill farming!</white>"
+
+logging:
+  enabled: true
+  file: "logs/bantkillfarm.log"
+
+performance:
+  cleanup-interval-minutes: 30

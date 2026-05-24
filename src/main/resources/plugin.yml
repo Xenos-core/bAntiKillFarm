@@ -1,0 +1,18 @@
+name: bAntiKillFarm
+version: 1.0.4
+main: com.macronis.bantkillfarm.BAntiKillFarm
+api-version: '1.21'
+author: Macronis
+description: Advanced async kill farm detection with warning system
+commands:
+  bantkillfarm:
+    description: Main command for bAntiKillFarm
+    permission: bantkillfarm.admin
+    usage: /<command> <reload|status>
+permissions:
+  bantkillfarm.admin:
+    description: Allows access to admin commands
+    default: op
+  bantkillfarm.bypass:
+    description: Bypass kill farm detection
+    default: false
